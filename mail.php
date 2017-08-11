@@ -1,7 +1,7 @@
 <?php
 // несколько получателей
-$to  = 'mikhailzavalko@gmail.com' . ', ';  // обратите внимание на запятую
-$to .= 'petrov0389@gmail.com';
+$to  = 'mail_1@mail.com' . ', ';  // обратите внимание на запятую
+$to .= 'mail_2@mail.com'; //поменять эти две строки на свои адреса почты
 
 $method = $_SERVER['REQUEST_METHOD'];
 
